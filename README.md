@@ -16,7 +16,10 @@ ___________________________
 •	Pantalla LCD 20x4 con I2C: Pantalla de 20x4 caracteres con interfaz I2C para mostrar los datos obtenidos de los sensores.
 
 •	Plataforma Wokwi: Herramienta de simulación electrónica en línea que facilita el diseño y prueba de circuitos sin necesidad de hardware físico.
-Diagrama de Conexión
+
+
+________________________________
+**Diagrama de Conexión**
 
 •	Sensor DHT22: El pin de señal del sensor está conectado al GPIO 15 del ESP32.
 
@@ -24,6 +27,7 @@ Diagrama de Conexión
 
 •	Pantalla LCD 20x4: Se conecta a la ESP32 utilizando el protocolo I2C con la dirección I2C configurada a 0x27.
 
+![](https://github.com/marcorea97/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/LCDMODCONEXION.png)
 _____________________________
 
 **Descripción del Código**
@@ -133,6 +137,18 @@ ____________________________
 
 **Resultados Esperados**
 
+
+![](
+https://github.com/marcorea97/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/3.png
+)
+
+![](https://github.com/marcorea97/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/4.png)
+
+![](https://github.com/marcorea97/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/5%20TEMP.png)
+
+![](https://github.com/marcorea97/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/6%20DIST.png)
+
+
 Al ejecutar el código, los resultados esperados son los siguientes:
 
 •	Monitor Serie: Se visualizarán los valores de temperatura, humedad y distancia en la consola del monitor serie.
@@ -143,4 +159,4 @@ ______________________________________
 
 **Conclusión**
 
-Esta práctica demuestra cómo integrar diversos sensores con la placa ESP32 y utilizar una pantalla LCD para visualizar los datos en tiempo real. La combinación del sensor DHT22 para medir temperatura y humedad, junto con el HC-SR04 para medir distancias, ofrece una solución efectiva para aplicaciones de monitoreo ambiental y sistemas IoT. Esta práctica es una base sólida para desarrollar proyectos más avanzados que requieran la medición y visualización de múltiples variables.
+Esta práctica demuestra cómo integrar diversos sensores con la placa ESP32 y utilizar una pantalla LCD para visualizar los datos en tiempo real. La combinación del sensor DHT22 para medir temperatura y humedad, junto con el HC-SR04 para medir distancias, ofrece una solución efectiva para aplicaciones de monitoreo ambiental y sistemas IoT. 
